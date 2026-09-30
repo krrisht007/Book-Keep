@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>CFBundleDisplayName</key>
+		<string>Book-Keep</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>bookkeeper_app</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(FLUTTER_BUILD_NAME)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleVersion</key>
+		<string>$(FLUTTER_BUILD_NUMBER)</string>
+		<key>LSRequiresIPhoneOS</key>
+		<true/>
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UIMainStoryboardFile</key>
+		<string>Main</string>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>CADisableMinimumFrameDurationOnPhone</key>
+		<true/>
+		<key>UIApplicationSupportsIndirectInputEvents</key>
+		<true/>
+		<!-- The backend is plain HTTP only (config.dart's baseUrl is always
+	     http://, never https:// — see android's usesCleartextTraffic for
+	     the same reason on that platform), reached at a raw LAN/emulator IP
+	     literal, never a real hostname. iOS's App Transport Security blocks
+	     arbitrary HTTP by default (since iOS 9) with no automatic exception
+	     for local/private IPs — without this, every single API call from an
+	     iOS build fails outright, not just one feature.
+	     NSAllowsLocalNetworking permits exactly that (IP-literal / .local
+	     hosts) without the broader, less safe NSAllowsArbitraryLoads. -->
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsLocalNetworking</key>
+			<true/>
+		</dict>
+		<!-- Required by print_bluetooth_thermal (thermal receipt printer support)
+	     — without these, connecting to a Bluetooth receipt printer crashes
+	     the app outright on iOS instead of prompting for permission. -->
+		<key>NSBluetoothAlwaysUsageDescription</key>
+		<string>Bluetooth access to connect to a thermal receipt printer</string>
+		<key>NSBluetoothPeripheralUsageDescription</key>
+		<string>Bluetooth access to connect to a thermal receipt printer</string>
+		<key>UIStatusBarHidden</key>
+		<false/>
+	</dict>
+</plist>

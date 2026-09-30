@@ -1,0 +1,89 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Superpowers brainstorming-companion scratch mockups (local tooling, not app content)
+.superpowers/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Firebase config - contains a project-identifying API key; get your own
+# copy from the Firebase console (Project settings > your Android app) and
+# drop it here, gitignored.
+/android/app/google-services.json
+
+# Secrets - any .env file anywhere in the repo (API keys, DB URLs), not just
+# backend/.env, so a future .env.local or root .env can't slip in by accident.
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Other credentials that must never be committed: signing keystores, Firebase
+# service-account keys, and per-platform Firebase client config.
+*.jks
+*.keystore
+serviceAccount*.json
+*service-account*.json
+*-firebase-adminsdk-*.json
+GoogleService-Info.plist
+
+# Local AI-tooling state and vendored skill packs — not app code. The prompt
+# archive is a raw dump of pasted terminal output and already leaked a DB URL.
+claude-mem-memory-archive.md
+.claude/skills/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+backend/.claude/
+.agents/
+.serena/
+skills-lock.json
+
+# Backend (Python/FastAPI)
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.db
+backend/*.db.pre_restore.bak
+backend/uploads/
+backend/backups/

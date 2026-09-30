@@ -1,0 +1,17 @@
+# What `vercel` (CLI) must NOT upload when deployed from backend/. The CLI reads
+# only this directory's ignore file — not the repo-root .gitignore — so without
+# this it would ship the whole venv (hundreds of MB, past the bundle limit) and
+# local-only state such as the dev SQLite DB.
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+.claude/
+.env*
+*.db
+uploads/
+backups/
+*.log
+test_*.py
+migrate_*.py
+skills-lock.json

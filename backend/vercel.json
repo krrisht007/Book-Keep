@@ -1,0 +1,8 @@
+{
+  "builds": [{ "src": "main.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "main.py" }],
+  "crons": [
+    { "path": "/internal/cron/notifications", "schedule": "0 4 * * *" },
+    { "path": "/internal/cron/backup", "schedule": "30 4 * * *" }
+  ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme brand color (warm coral) — unchanged from before the
+         Harbor Teal light-theme redesign. -->
+    <color name="launch_background">#FFFF7E45</color>
+</resources>

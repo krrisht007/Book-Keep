@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.cs.allow-jit</key>
+	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
+	<!-- Outbound requests (the actual direction this app needs — every
+	     backend API call, Firebase, etc.) were never permitted: a sandboxed
+	     macOS app can't make outgoing network connections without this
+	     entitlement, regardless of ATS. network.server (above) only covers
+	     the opposite direction (accepting incoming connections), which this
+	     app never does. -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+</dict>
+</plist>

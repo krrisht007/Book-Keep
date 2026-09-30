@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light theme brand color (Harbor Teal) — used as the native
+         launch-screen background so app-open doesn't flash white before
+         Flutter paints. Dark theme's own coral is in values-night/. -->
+    <color name="launch_background">#FF0F766E</color>
+	<color name="ic_launcher_background">#0D5E5C</color>
+</resources>

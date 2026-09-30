@@ -1,0 +1,2175 @@
+{
+  "@@locale": "en",
+  "navHome": "Home",
+  "navCustomers": "Customers",
+  "navItems": "Items",
+  "navSuppliers": "Suppliers",
+  "navReports": "Reports",
+  "navSettings": "Settings",
+  "settingsShopDetailsTitle": "Shop Details",
+  "settingsShopDetailsSubtitle": "Shown on your invoices.",
+  "settingsShopNameLabel": "Shop Name",
+  "settingsShopAddressLabel": "Shop Address",
+  "settingsPhoneLabel": "Phone",
+  "settingsSaveShopDetails": "Save Shop Details",
+  "settingsAppearanceTitle": "Appearance",
+  "settingsAppearanceSubtitle": "Pick a theme for the whole app.",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System",
+  "settingsLanguageTitle": "Language",
+  "settingsLanguageSubtitle": "Choose the app's display language.",
+  "sortNameNewest": "Sort: Name / Newest",
+  "addCustomer": "Add Customer",
+  "importCsv": "Import CSV",
+  "searchShop": "Search Shop",
+  "scanToFindItem": "Scan to Find Item",
+  "bulkAdd": "Bulk Add",
+  "updateStock": "Update Stock",
+  "printLabels": "Print Labels",
+  "mergeDuplicates": "Merge Duplicates",
+  "addSupplier": "Add Supplier",
+  "scanPurchaseInvoice": "Scan Purchase Invoice",
+  "askNoAnswer": "Could not get an answer: {reason}",
+  "@askNoAnswer": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "couldNotConnect": "Could not connect: {error}",
+  "@couldNotConnect": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "micPermissionNeeded": "Microphone permission is needed for voice input.",
+  "speechUnavailable": "Speech recognition isn't available on this device.",
+  "askYourShop": "Ask Your Shop",
+  "close": "Close",
+  "askIntro": "Wondering how the shop is doing? Ask me, and I’ll answer from what’s in your books.",
+  "askListening": "Listening…",
+  "askThinkingWords": "Thinking…|Working on it…|Figuring it out…|Crunching the numbers…|Checking your books…|Adding it up…|Doing the math…|Tallying things up…|Digging through the figures…|Connecting the dots…|Pondering…|Sorting it out…",
+  "askSayQuestion": "Say your question — tap the orb to cancel",
+  "briefingRefreshFailed": "Could not refresh briefing ({code}).",
+  "@briefingRefreshFailed": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "refreshFailedOffline": "Could not refresh — check your connection.",
+  "newBillFailed": "Could not start a new bill — check your connection and try again.",
+  "setPreferredSupplierFirst": "Set a preferred supplier for {name} first (tap to edit).",
+  "@setPreferredSupplierFirst": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reorderBySupplier": "Reorder by supplier",
+  "supplier": "Supplier",
+  "itemCount": "{count, plural, =1{1 item} other{{count} items}}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noLowStockWithSupplier": "No low-stock items have a preferred supplier set yet.",
+  "thisSupplier": "This supplier",
+  "supplierNoPhone": "{name} has no phone number set.",
+  "@supplierNoPhone": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tabOverview": "Overview",
+  "tabStock": "Stock",
+  "tabMoney": "Money",
+  "taglineOverview": "Today's dues, stock, and cash at a glance.",
+  "taglineStock": "What's moving, what's running low.",
+  "taglineMoney": "Expenses, reconciliation, and collections.",
+  "loadingDashboard": "Loading dashboard… {done} of {total}",
+  "@loadingDashboard": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardLoadFailed": "Couldn't load the dashboard",
+  "checkConnectionRetry": "Check your connection and try again.",
+  "retry": "Retry",
+  "aiBriefing": "AI Briefing",
+  "briefingPrompt": "See yesterday's business summed up in a few sentences.",
+  "getBriefing": "Get Briefing",
+  "refreshBriefing": "Refresh briefing",
+  "updatedAt": "Updated {time}",
+  "@updatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "customersUnknown": "— customers",
+  "customerCount": "{count, plural, =1{1 customer} other{{count} customers}}",
+  "@customerCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previousMonth": "Previous month",
+  "nextMonth": "Next month",
+  "salesMonth": "Sales (Month)",
+  "outstanding": "Outstanding",
+  "profitMonth": "Profit (Month)",
+  "cashToday": "Cash Today",
+  "newBill": "New Bill",
+  "scanHandwrittenBill": "Scan a Handwritten Bill",
+  "topOutstanding": "Top Outstanding Balances",
+  "viewAllInDues": "View all {count} in Dues Center",
+  "@viewAllInDues": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lowStockAlerts": "Low Stock Alerts",
+  "noLowStock": "No low-stock items — stock looks good.",
+  "whatsappAll": "WhatsApp All",
+  "reorderAll": "Reorder All",
+  "suggestReorder": "Suggest reordering {qty} {unit}",
+  "@suggestReorder": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "stockLeft": "{qty} {unit} left",
+  "@stockLeft": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "reorder": "Reorder",
+  "whatsappSupplier": "WhatsApp supplier",
+  "topItemsByRevenue": "Top Items by Revenue",
+  "noSalesYet": "No sales recorded yet.",
+  "qtyLabel": "Qty: {qty}",
+  "@qtyLabel": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "monthExpenses": "This Month's Expenses",
+  "noExpensesMonth": "No expenses recorded this month.",
+  "quickActions": "Quick Actions",
+  "dailyCashReconciliation": "Daily Cash Reconciliation",
+  "collectMoney": "Collect Money",
+  "changesSavedOffline": "{count, plural, =1{1 change saved offline} other{{count} changes saved offline}}",
+  "@changesSavedOffline": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "willSyncOnline": "Will sync automatically when back online",
+  "syncing": "Syncing",
+  "sync": "Sync",
+  "shopProfile": "Shop Profile",
+  "insights": "Insights",
+  "notifications": "Notifications",
+  "backupExport": "Backup & Export",
+  "adminPanel": "Admin Panel",
+  "toolsSync": "Tools & Sync",
+  "account": "Account",
+  "shopDetailsSaved": "Shop details saved.",
+  "saveFailed": "Failed to save ({code})",
+  "@saveFailed": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "couldNotSave": "Could not save: {error}",
+  "@couldNotSave": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "logoUpdated": "Logo updated.",
+  "logoUploadFailed": "Failed to upload logo ({code})",
+  "@logoUploadFailed": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "couldNotUploadLogo": "Could not upload logo: {error}",
+  "@couldNotUploadLogo": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "healthGood": "Looking good overall.",
+  "healthSome": "A few things could use attention.",
+  "healthMany": "Several things need attention.",
+  "shopHealth": "Shop Health",
+  "healthIntro": "A quick nudge, not another report to read.",
+  "couldNotLoadCheckConnection": "Could not load — check your connection.",
+  "itemPhotos": "Item photos",
+  "barcodes": "Barcodes",
+  "lowStockItems": "Low-stock items",
+  "lastBackup": "Last backup",
+  "today": "today",
+  "yesterday": "yesterday",
+  "daysAgo": "{days, plural, =1{1 day ago} other{{days} days ago}}",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "offlineStatus": "Offline Status",
+  "online": "Online",
+  "offline": "Offline",
+  "waitingToSync": "Waiting to sync",
+  "syncNow": "Sync now",
+  "searchSettings": "Search settings",
+  "noSettingsMatch": "No settings match \"{query}\"",
+  "@noSettingsMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "businessInfo": "BUSINESS INFO",
+  "payment": "PAYMENT",
+  "shopNameRequired": "Shop name is required",
+  "phoneIncomplete": "Enter a complete {digits}-digit phone number",
+  "@phoneIncomplete": {
+    "placeholders": {
+      "digits": {
+        "type": "int"
+      }
+    }
+  },
+  "jazzcashOptional": "JazzCash Number (optional)",
+  "saved": "Saved!",
+  "languageSubtitle": "Change the app's display language",
+  "notificationsSubtitle": "Low stock, overdue payments & daily summary",
+  "backupSubtitle": "Download, restore & export shop data",
+  "appUpdate": "App update",
+  "appUpdateSubtitle": "Check for a newer version",
+  "adminSubtitle": "Manage accounts & shop data",
+  "accountSubtitle": "Sign-in, password & username",
+  "privacyPolicy": "Privacy Policy",
+  "privacySubtitle": "What data we collect and why",
+  "yourShop": "Your Shop",
+  "uploadingLogo": "Uploading shop logo",
+  "logoTapToChange": "Shop logo, tap to change",
+  "brandTagline": "Busy shop, calm books.",
+  "serverError": "Server error: {code}",
+  "@serverError": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteCustomer": "Delete Customer",
+  "deleteCustomerMessage": "Delete {name} and all their bills? This cannot be undone.",
+  "@deleteCustomerMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "couldNotDeleteDetail": "Could not delete: {detail}",
+  "@couldNotDeleteDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "couldNotDeleteOffline": "Could not delete — check your connection and try again.",
+  "actions": "Actions",
+  "edit": "Edit",
+  "delete": "Delete",
+  "deleteCustomersTitle": "{count, plural, =1{Delete 1 Customer} other{Delete {count} Customers}}",
+  "@deleteCustomersTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteCustomersMessage": "{count, plural, =1{Delete 1 customer and all their bills? This cannot be undone.} other{Delete {count} customers and all their bills? This cannot be undone.}}",
+  "@deleteCustomersMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deselectAll": "Deselect All",
+  "selectAll": "Select All",
+  "selectedCount": "{count} selected",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cancel": "Cancel",
+  "newTag": "NEW",
+  "csvNeedsRows": "CSV needs a header row plus at least one customer.",
+  "csvNeedsName": "CSV header must include a \"name\" column.",
+  "csvLineMissingName": "Line {line}: missing name — fix the file and retry.",
+  "@csvLineMissingName": {
+    "placeholders": {
+      "line": {
+        "type": "int"
+      }
+    }
+  },
+  "csvLineBadCredit": "Line {line}: invalid credit_limit \"{value}\" — fix the file and retry.",
+  "@csvLineBadCredit": {
+    "placeholders": {
+      "line": {
+        "type": "int"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "importCustomers": "Import Customers",
+  "importCustomersConfirm": "{count, plural, =1{Found 1 customer in \"{file}\". Import them all?} other{Found {count} customers in \"{file}\". Import them all?}}",
+  "@importCustomersConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "file": {
+        "type": "String"
+      }
+    }
+  },
+  "importAction": "Import",
+  "importedCustomers": "{count, plural, =1{Imported 1 customer.} other{Imported {count} customers.}}",
+  "@importedCustomers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "importFailed": "Import failed: {detail}",
+  "@importFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "importFailedOffline": "Import failed — could not connect: {error}",
+  "@importFailedOffline": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noPhone": "No phone",
+  "offlineShowingSaved": "Offline — showing saved copy",
+  "searchCustomersHint": "Search customers or phone...",
+  "noCustomersYet": "No customers yet. Tap + to add one.",
+  "noCustomersMatch": "No customers match your search.",
+  "owesMoney": "Owes Money",
+  "settledUp": "Settled Up",
+  "couldNotLoadLabel": "Could not load {what}: {error}",
+  "@couldNotLoadLabel": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      },
+      "what": {
+        "type": "String"
+      }
+    }
+  },
+  "takePhoto": "Take Photo",
+  "chooseFromGallery": "Choose from Gallery",
+  "back": "Back",
+  "callPhone": "Call {phone}",
+  "@callPhone": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "whatsappPhone": "WhatsApp {phone}",
+  "@whatsappPhone": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "clearSearch": "Clear search",
+  "askHint": "e.g. How much profit did I make this month?",
+  "acctTurnOffLockTitle": "Turn off App Lock?",
+  "acctTurnOffLockBody": "Anyone with this phone will be able to open the app without a PIN.",
+  "acctTurnOff": "Turn Off",
+  "acctSetPinTitle": "Set a PIN",
+  "acctPinLabel": "4-6 digit PIN",
+  "acctPinMin": "At least 4 digits",
+  "acctConfirmPin": "Confirm PIN",
+  "acctPinMismatch": "PINs don't match",
+  "acctSetPin": "Set PIN",
+  "acctBiometricTitle": "Use fingerprint/face too?",
+  "acctBiometricBody": "You can still use the PIN if biometrics ever fail.",
+  "acctNoThanks": "No thanks",
+  "acctEnable": "Enable",
+  "acctSetPasswordTitle": "Set a password",
+  "acctSetPasswordIntro": "Choose a password so you can also sign in with email + password next time, instead of only Google.",
+  "acctPassword": "Password",
+  "acctPasswordMin": "Must be at least 6 characters",
+  "acctConfirmPassword": "Confirm password",
+  "acctPasswordsMismatch": "Passwords do not match",
+  "acctSetPasswordButton": "Set Password",
+  "acctPasswordSet": "Password set — you can now sign in with it too.",
+  "acctCouldNotSetPassword": "Could not set password: {error}",
+  "@acctCouldNotSetPassword": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "acctChangePasswordTitle": "Change password",
+  "acctCurrentPassword": "Current password",
+  "acctRequired": "Required",
+  "acctNewPassword": "New password",
+  "acctConfirmNewPassword": "Confirm new password",
+  "acctChange": "Change",
+  "acctPasswordChanged": "Password changed.",
+  "acctWrongPassword": "Current password is incorrect.",
+  "acctCouldNotChangePassword": "Could not change password: {error}",
+  "@acctCouldNotChangePassword": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "acctChangeUsernameTitle": "Change username",
+  "acctUsername": "Username",
+  "acctUsernameEmpty": "Username can't be empty",
+  "acctUsernameChanged": "Username changed.",
+  "acctChangeEmailTitle": "Change email",
+  "acctNewEmail": "New email",
+  "acctValidEmail": "Enter a valid email",
+  "acctRequiredConfirm": "Required to confirm it's you",
+  "acctGoogleConfirmFirst": "You'll be asked to confirm with Google first.",
+  "acctCheckEmail": "Check {email} for a link to confirm the change.",
+  "@acctCheckEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "acctProviderGoogle": "Google",
+  "acctProviderPassword": "password sign-in",
+  "acctRemoveTitle": "Remove {provider}?",
+  "@acctRemoveTitle": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "acctRemoveBody": "You'll no longer be able to sign in with {provider} on this account.",
+  "@acctRemoveBody": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "acctRemove": "Remove",
+  "acctRemoved": "{provider} removed.",
+  "@acctRemoved": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "acctSignedIn": "Signed in",
+  "acctEmailNotVerified": "Email not verified yet.",
+  "acctVerificationSent": "Verification email sent.",
+  "acctResend": "Resend",
+  "acctSectionSignIn": "SIGN-IN & SECURITY",
+  "acctRowChangeUsername": "Change Username",
+  "acctRowChangeEmail": "Change Email",
+  "acctRowSetPassword": "Set a Password",
+  "acctRowChangePassword": "Change Password",
+  "acctRowUnlinkGoogle": "Unlink Google",
+  "acctRowRemovePassword": "Remove Password",
+  "acctRowAppLock": "App Lock (PIN)",
+  "acctRowBiometric": "Use fingerprint/face",
+  "acctSignOutTitle": "Sign out?",
+  "acctSignOutBody": "You will need to sign in again to use the app.",
+  "acctSignOut": "Sign Out",
+  "acctDeleteAccount": "Delete Account",
+  "acctDeleting": "Deleting...",
+  "acctDeleteTitle": "Delete account?",
+  "acctDeleteBody": "This permanently deletes your sign-in credentials. You will need to sign up again to use the app. This cannot be undone.",
+  "acctCouldNotDelete": "Could not delete account: {error}",
+  "@acctCouldNotDelete": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "itmNotFoundTitle": "Item not found",
+  "itmNotFoundBody": "No item has barcode {barcode}. Add it as a new item now?",
+  "@itmNotFoundBody": {
+    "placeholders": {
+      "barcode": {
+        "type": "String"
+      }
+    }
+  },
+  "itmAddItem": "Add Item",
+  "itmEditItem": "Edit Item",
+  "itmMergeTitle": "Merge Duplicate Items",
+  "itmMergeBody": "Items with the same name will be merged into the oldest entry, combining their stock quantities. This cannot be undone.",
+  "itmMerge": "Merge",
+  "itmNoDuplicates": "No duplicate items found.",
+  "itmMerged": "{count, plural, =1{Merged 1 duplicate item.} other{Merged {count} duplicate items.}}",
+  "@itmMerged": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itmDeleteTitle": "Delete Item",
+  "itmCannotUndo": "This cannot be undone.",
+  "itmDeleteOffline": "Could not delete — check your connection and try again.",
+  "itmDeleteManyTitle": "{count, plural, =1{Delete 1 Item} other{Delete {count} Items}}",
+  "@itmDeleteManyTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itmDeleteManyBody": "{count, plural, =1{Delete 1 item? This cannot be undone.} other{Delete {count} items? This cannot be undone.}}",
+  "@itmDeleteManyBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itmPhotoUploadFailedCode": "Could not upload photo ({code})",
+  "@itmPhotoUploadFailedCode": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "itmPhotoUploadFailed": "Could not upload photo: {error}",
+  "@itmPhotoUploadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "itmNoBarcodes": "No items have a barcode yet.",
+  "itmPrintCount": "{count, plural, =1{Print 1 Label} other{Print {count} Labels}}",
+  "@itmPrintCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itmSearchHint": "Search items or category...",
+  "itmStopListening": "Stop listening",
+  "itmVoiceSearch": "Voice search",
+  "itmSort": "Sort",
+  "itmSortName": "Name (A-Z)",
+  "itmSortStockLow": "Stock: low to high",
+  "itmSortRecent": "Recently added",
+  "itmFilterAll": "All",
+  "itmFilterLowStock": "Low Stock",
+  "itmNoItemsYet": "No items yet. Tap + to add one.",
+  "itmNoItemsMatch": "No items match your search.",
+  "itmNoPriceChanges": "No price changes recorded yet.",
+  "itmNoStockCorrections": "No stock corrections recorded yet.",
+  "itmResetHistory": "Reset history",
+  "itmResetHistoryMsg": "Reset the history for this item? This can't be undone.",
+  "itmSendPdf": "Send as PDF",
+  "itmNoteOptional": "Note (optional)",
+  "itmNoteHint": "Add a note for this change",
+  "itmRemoveEntry": "Remove entry",
+  "itmRemoveEntryMsg": "Remove this entry from the history? This can't be undone.",
+  "itmEditEntry": "Edit entry",
+  "itmPrevQty": "Previous",
+  "itmNewQty": "New",
+  "itmCost": "Cost: {amount}",
+  "@itmCost": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "itmMore": "More",
+  "itmMenuPrintLabel": "Print label",
+  "itmMenuDuplicate": "Duplicate",
+  "itmMenuPriceHistory": "Price history",
+  "itmMenuStockHistory": "Stock adjustment history",
+  "itmLowStockBadge": "{count} low stock",
+  "@itmLowStockBadge": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itmStockLine": "Stock: {qty}",
+  "@itmStockLine": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "itmOfflineSaved": "Offline — item saved on this device, will sync automatically when back online",
+  "itmItemName": "Item Name",
+  "itmNameRequired": "Name is required",
+  "itmPricePkr": "Price (PKR)",
+  "itmPriceRequired": "Price is required",
+  "itmValidNumber": "Enter a valid number",
+  "itmUnit": "Unit",
+  "itmCategoryHint": "Category (optional, e.g. Plumbing)",
+  "itmPreferredSupplier": "Preferred Supplier (optional)",
+  "itmPreferredSupplierHelper": "Used by the one-tap Reorder action",
+  "itmClear": "Clear",
+  "itmHsn": "HSN Code (optional)",
+  "itmGstRate": "GST Rate % (optional)",
+  "itmBarcodeOptional": "Barcode (optional)",
+  "itmScanOrType": "Scan or type",
+  "itmScanBarcode": "Scan barcode",
+  "itmPurchaseCost": "Purchase Cost (per unit)",
+  "itmPurchaseCostHint": "What you pay when buying stock",
+  "itmWholesale": "Wholesale Price (optional)",
+  "itmContractor": "Contractor Price (optional)",
+  "itmFallsBack": "Falls back to normal price",
+  "itmStockQty": "Stock Quantity",
+  "itmLowStockAlert": "Low Stock Alert Below",
+  "itmFrequently": "Frequently bought with",
+  "itmSaveChanges": "Save Changes",
+  "itmSaveItem": "Save Item",
+  "itmPhotoSemantics": "Item photo, tap to change",
+  "cdUpdateStatusTitle": "Update Payment Status",
+  "cdMarkPaidQ": "Mark this bill as paid?",
+  "cdMarkUnpaidQ": "Mark this bill as unpaid?",
+  "cdConfirm": "Confirm",
+  "cdCouldNotUpdate": "Could not update: {detail}",
+  "@cdCouldNotUpdate": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "cdOfflineChangeSaved": "Offline — change saved on this device, will sync automatically when back online",
+  "cdConvertTitle": "Convert to Bill",
+  "cdConvertBody": "This will deduct stock for these items and turn the quotation into a real bill. Continue?",
+  "cdConvert": "Convert",
+  "cdCouldNotConvert": "Could not convert: {detail}",
+  "@cdCouldNotConvert": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "cdReturnItems": "Return Items",
+  "cdReturnHint": "Set how many of each item to return. Leave at 0 to keep it sold.",
+  "cdDecreaseQty": "Decrease quantity",
+  "cdIncreaseQty": "Increase quantity",
+  "cdCreditTotal": "Credit total",
+  "cdReturnSelected": "Return Selected",
+  "cdCouldNotReturn": "Could not return: {detail}",
+  "@cdCouldNotReturn": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "cdCouldNotVoid": "Could not void: {detail}",
+  "@cdCouldNotVoid": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "cdNoPreviousBill": "No previous bill to repeat",
+  "cdCouldNotLoadLast": "Could not load last bill: {detail}",
+  "@cdCouldNotLoadLast": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "cdInvoiceEmailed": "Invoice emailed to the customer.",
+  "cdCouldNotEmailInvoice": "Could not email invoice: {detail}",
+  "@cdCouldNotEmailInvoice": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "cdStatementEmailed": "Statement emailed to the customer.",
+  "cdCouldNotEmailStatement": "Could not email statement: {detail}",
+  "@cdCouldNotEmailStatement": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "cdDeleteBillTitle": "Delete Bill",
+  "cdBillVoided": "VOIDED",
+  "cdBillReturn": "RETURN",
+  "cdBillQuote": "QUOTE",
+  "cdBillPaid": "PAID",
+  "cdBillPartial": "PARTIAL",
+  "cdBillUnpaid": "UNPAID",
+  "cdBill": "Bill",
+  "cdVoidedReason": "Voided: {reason}",
+  "@cdVoidedReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "cdViewInvoice": "View Invoice",
+  "cdEmailInvoice": "Email Invoice",
+  "cdEditBill": "Edit Bill",
+  "cdReturnBill": "Return Bill",
+  "cdVoidBill": "Void Bill",
+  "cdNoItems": "No items",
+  "cdRepeatLast": "Repeat Last Bill",
+  "cdLedgerPdf": "Ledger PDF",
+  "cdEmailStatement": "Email Statement",
+  "cdCollectPayment": "Collect Payment",
+  "cdSendReminder": "Send WhatsApp Reminder",
+  "cdTotalBilled": "Total Billed",
+  "cdPaid": "Paid",
+  "cdNoBills": "No bills yet",
+  "cdBillActions": "Bill actions",
+  "cdCreditUsed": "{outstanding} of {limit} credit limit used",
+  "@cdCreditUsed": {
+    "placeholders": {
+      "limit": {
+        "type": "String"
+      },
+      "outstanding": {
+        "type": "String"
+      }
+    }
+  },
+  "cdVoidBody": "This removes it from balances and reports, but keeps it in the history. Stock will be restored. This cannot be undone.",
+  "cdReason": "Reason (optional)",
+  "frmOfflineCustomer": "Offline — customer saved on this device, will sync automatically when back online",
+  "frmOfflineSupplier": "Offline — supplier saved on this device, will sync automatically when back online",
+  "frmEditCustomer": "Edit Customer",
+  "frmCustomerName": "Customer Name",
+  "frmPhoneOptional": "Phone (optional)",
+  "frmCreditLimit": "Credit Limit (PKR, optional)",
+  "frmCreditHelper": "Warn when this customer's balance exceeds this",
+  "frmPriceTier": "Price Tier",
+  "frmRetail": "Retail",
+  "frmWholesale": "Wholesale",
+  "frmContractor": "Contractor",
+  "frmPriceTierHelper": "Which item price Add Bill pre-fills for this customer",
+  "frmStrn": "STRN (optional)",
+  "frmStrnCustomer": "13-digit Sales Tax Registration Number for invoices",
+  "frmStrnSupplier": "13-digit Sales Tax Registration Number for purchase bills",
+  "frmAddress": "Address (optional)",
+  "frmEmail": "Email (optional)",
+  "frmEmailHelper": "Lets you email an invoice or statement to this customer",
+  "frmSaveCustomer": "Save Customer",
+  "frmEditSupplier": "Edit Supplier",
+  "frmSupplierName": "Supplier Name",
+  "frmSaveSupplier": "Save Supplier",
+  "sdDeletePurchaseTitle": "Delete Purchase",
+  "sdDeletePurchaseBody": "Stock for this purchase will be restored. This cannot be undone.",
+  "sdReturnToSupplier": "Return to Supplier",
+  "sdReturnHint": "Set how many of each item to send back. Leave at 0 to keep it.",
+  "sdCouldNotMarkReceived": "Could not mark as received: {detail}",
+  "@sdCouldNotMarkReceived": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "sdMarkPaidQ": "Mark this purchase as paid?",
+  "sdMarkUnpaidQ": "Mark this purchase as unpaid?",
+  "sdTotalPurchased": "Total Purchased",
+  "sdPayable": "Payable",
+  "sdPayableAmount": "{amount} payable",
+  "@sdPayableAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "sdNoPurchases": "No purchases yet",
+  "sdPo": "PO",
+  "sdDraftPo": "DRAFT PO",
+  "sdPurchase": "Purchase",
+  "sdDraftNote": "Draft purchase order — not yet received, no stock or cost update yet.",
+  "sdReturnNote": "Return / credit note to the supplier.",
+  "sdMarkReceived": "Mark as Received",
+  "sdEditPurchase": "Edit Purchase",
+  "sdPurchaseActions": "Purchase actions",
+  "slDeleteSupplier": "Delete Supplier",
+  "slDeleteManyTitle": "{count, plural, =1{Delete 1 Supplier} other{Delete {count} Suppliers}}",
+  "@slDeleteManyTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "slDeleteManyBody": "{count, plural, =1{Delete 1 supplier and all their purchases? This cannot be undone.} other{Delete {count} suppliers and all their purchases? This cannot be undone.}}",
+  "@slDeleteManyBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "slCsvNeedsRows": "CSV needs a header row plus at least one supplier.",
+  "slImportTitle": "Import Suppliers",
+  "slImportConfirm": "{count, plural, =1{Found 1 supplier in \"{file}\". Import them all?} other{Found {count} suppliers in \"{file}\". Import them all?}}",
+  "@slImportConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "file": {
+        "type": "String"
+      }
+    }
+  },
+  "slImported": "{count, plural, =1{Imported 1 supplier.} other{Imported {count} suppliers.}}",
+  "@slImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "slNoSuppliers": "No suppliers yet. Tap + to add one.",
+  "slSearchHint": "Search suppliers or phone...",
+  "slNoMatch": "No suppliers match your search.",
+  "slCount": "{count, plural, =1{1 supplier} other{{count} suppliers}}",
+  "@slCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sduTitle": "Supplier Dues",
+  "sduNothingOwed": "Nothing owed to suppliers 🎉",
+  "sduOwedCount": "{count, plural, =1{1 supplier owed} other{{count} suppliers owed}}",
+  "@sduOwedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sduDaysSince": "{days, plural, =1{1 day since oldest unpaid purchase} other{{days} days since oldest unpaid purchase}}",
+  "@sduDaysSince": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "duBucket0": "0–30 days",
+  "duBucket1": "30–60 days",
+  "duBucket2": "60+ days",
+  "duTitle": "Dues Center",
+  "duNoDues": "No outstanding dues 🎉",
+  "duOwingCount": "{count, plural, =1{1 customer with dues} other{{count} customers with dues}}",
+  "@duOwingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "duDaysSince": "{days, plural, =1{1 day since oldest unpaid bill} other{{days} days since oldest unpaid bill}}",
+  "@duDaysSince": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "duAmountOutstanding": "{amount} outstanding",
+  "@duAmountOutstanding": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "cpNoOutstanding": "No outstanding balance for this customer",
+  "cpValidAmount": "Enter a valid amount",
+  "cpExceeds": "Amount exceeds the outstanding balance of {amount}",
+  "@cpExceeds": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "cpCollected": "Collected {amount} from {name}",
+  "@cpCollected": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cpOfflineSaved": "Offline — payment saved on this device, will sync automatically when back online",
+  "cpOwes": "{name} owes {amount}. Applied to their oldest unpaid bill(s) first.",
+  "@cpOwes": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cpAmountLabel": "Amount Collected (PKR)",
+  "cpCollect": "Collect",
+  "usNoItems": "No items to update.",
+  "usHelp": "Set the new stock for each item, then tap Save All.",
+  "usCurrent": "{unit}  •  current: {qty}",
+  "@usCurrent": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "usNew": "new: {qty}",
+  "@usNew": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "usSubtract": "Subtract 1",
+  "usAdd": "Add 1",
+  "usNoChanges": "No changes",
+  "usSaveAll": "Save All ({count} changed)",
+  "@usSaveAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "srHint": "Search customers, items, amounts...",
+  "srFailed": "Search failed — check your connection.",
+  "srTitle": "Search your shop",
+  "srSubtitle": "Find customers by name or phone, bills by amount.",
+  "srNoMatches": "No matches for \"{query}\"",
+  "@srNoMatches": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "srTryDifferent": "Try a different name, phone number, or amount.",
+  "srBills": "Bills",
+  "srNoItemList": "No item list",
+  "abAddAtLeastOne": "Add at least one item",
+  "abQuotationUpdated": "Quotation Updated!",
+  "abBillUpdated": "Bill Updated!",
+  "abQuotationSaved": "Quotation Saved!",
+  "abBillCreated": "Bill Created Successfully!",
+  "abTotalAmount": "Total: {amount}",
+  "@abTotalAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "abShare": "Share",
+  "abDoneReturn": "Done & Return",
+  "abOverLimitBody": "This would put the customer over their credit limit.",
+  "abOverLimitTitle": "Over credit limit",
+  "abBillAnyway": "Bill anyway",
+  "abOfflineBill": "Offline — bill saved on this device, will sync automatically when back online",
+  "abEditQuotation": "Edit Quotation",
+  "abEditBill": "Edit Bill",
+  "abNewQuotation": "New Quotation",
+  "abAddBill": "Add Bill",
+  "abCouldNotLoadItems": "Could not load items.",
+  "abOverLimitWarn": "This bill would put the customer at {total}, over their {limit} credit limit.",
+  "@abOverLimitWarn": {
+    "placeholders": {
+      "limit": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "abTapAddItemBill": "Tap \"Add Item\" below to start a bill",
+  "abNoCatalog": "No items in catalog yet",
+  "abScan": "Scan",
+  "abDiscountRs": "Discount (Rs)",
+  "abSubtotal": "Subtotal",
+  "abTotal": "Total",
+  "abSaveAsQuotation": "Save as Quotation",
+  "abQuotationLocked": "An existing bill can't be turned back into a quotation",
+  "abQuotationNote": "No stock deducted until converted to a bill",
+  "abPaymentStatus": "Payment Status",
+  "abUnpaid": "Unpaid",
+  "abPaymentMethod": "Payment Method",
+  "abCash": "Cash",
+  "abBankTransfer": "Bank Transfer",
+  "abCheque": "Cheque",
+  "abSaveQuotation": "Save Quotation",
+  "abSaveBill": "Save Bill",
+  "abAdded": "Added {name}",
+  "@abAdded": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "apNewItem": "New Item…",
+  "apNewItemHint": "Add a new item to the catalog first",
+  "apOfflinePurchase": "Offline — purchase saved on this device, will sync automatically when back online",
+  "apEditPo": "Edit Purchase Order",
+  "apNewPo": "New Purchase Order",
+  "apAddPurchase": "Add Purchase",
+  "apTapAddItem": "Tap \"Add Item\" below to start a purchase",
+  "apSaveAsPo": "Save as Purchase Order",
+  "apPoLocked": "An already-received purchase can't be turned back into a draft order",
+  "apPoNote": "No stock or cost update until goods are marked received",
+  "apUnpaidCredit": "Unpaid (Credit)",
+  "apSavePo": "Save Purchase Order",
+  "apSavePurchase": "Save Purchase",
+  "apCurrentCost": "Current cost: {amount} / {unit}",
+  "@apCurrentCost": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "apNoCost": "No cost set  •  {unit}",
+  "@apNoCost": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "scServerFail": "Scan failed: server error {code}",
+  "@scServerFail": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "scOfflineSaved": "Offline — photo saved, will read it automatically once back online",
+  "scStillOffline": "Still offline",
+  "scCouldNotCreateCustomer": "Could not create the customer — try again.",
+  "scCouldNotCreateSupplier": "Could not create the supplier — try again.",
+  "scBillSavedFor": "Bill saved for {name}",
+  "@scBillSavedFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "scPurchaseSavedFrom": "Purchase saved from {name}",
+  "@scPurchaseSavedFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "scWhichCustomer": "Which customer is this?",
+  "scWhichSupplier": "Which supplier is this?",
+  "scClosestMatch": "Closest match on file: {name} ({score}% similar)",
+  "@scClosestMatch": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "scYesThisIs": "Yes, this is {name}",
+  "@scYesThisIs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "scOtherwiseCustomer": "Otherwise, create a new customer:",
+  "scOtherwiseSupplier": "Otherwise, create a new supplier:",
+  "scNoMatchCustomer": "No matching customer found. Create a new one:",
+  "scNoMatchSupplier": "No matching supplier found. Create a new one:",
+  "scCustomerName": "Customer name",
+  "scSupplierName": "Supplier name",
+  "scCreateNew": "Create New",
+  "scTitleBill": "Scan Bill",
+  "scIntroBill": "Snap a photo of the bill. Handwritten is fine, and Sindhi, Urdu or English all work. You'll get to check it before it's saved.",
+  "scIntroPurchase": "Snap a photo of the supplier's invoice. Sindhi, Urdu or English all work. You'll get to check it before it's saved.",
+  "scReadingBill": "Reading bill…",
+  "scScanBill": "Scan a Bill",
+  "scReadingInvoice": "Reading invoice…",
+  "scScanInvoice": "Scan an Invoice",
+  "scQueued": "Queued Scans",
+  "scReady": "Ready to review",
+  "scFailed": "Failed",
+  "scWaiting": "Waiting for connection",
+  "scRetry": "Retry",
+  "rpCouldNotLoad": "Could not load reports: {error}",
+  "@rpCouldNotLoad": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "rpHeadline": "This month's headline numbers",
+  "rpProfitThisMonth": "Profit This Month",
+  "rpNoData": "No data yet",
+  "rpSalesTax": "Sales Tax",
+  "rpSalesTaxFor": "Sales tax report for {month}",
+  "@rpSalesTaxFor": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "rpViewSalesTax": "View Sales Tax Report",
+  "rpQuickReports": "Quick Reports",
+  "rpQuickSub": "Jump straight to a specific report",
+  "expensesTitle": "Expenses",
+  "rpRateCard": "Rate Card",
+  "rpDetails": "Details",
+  "rpDetailsSub": "Full breakdowns and rankings",
+  "rpOutstandingByCustomer": "Outstanding by Customer",
+  "rpNoOutstanding": "No outstanding balances",
+  "rpMonthlyTotals": "Monthly Totals",
+  "rpMostSold": "Most Sold Items",
+  "rpNoItemsRecorded": "No items recorded yet",
+  "rpTopCustomers": "Top Customers by Revenue",
+  "rpNoSalesRecorded": "No sales recorded yet",
+  "rpTotalOutstanding": "Total Outstanding",
+  "rpViewCustomers": "View customers",
+  "lblInvoice": "invoice",
+  "lblLedger": "ledger",
+  "lblRateCard": "rate card",
+  "exCsvNeedsRows": "CSV needs a header row plus at least one expense.",
+  "exCsvHeader": "CSV header must include \"description\" and \"amount\" columns.",
+  "exLineBadAmount": "Line {line}: missing description or invalid amount — fix the file and retry.",
+  "@exLineBadAmount": {
+    "placeholders": {
+      "line": {
+        "type": "int"
+      }
+    }
+  },
+  "exLineBadDate": "Line {line}: invalid date \"{date}\" — use YYYY-MM-DD.",
+  "@exLineBadDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "line": {
+        "type": "int"
+      }
+    }
+  },
+  "exImportTitle": "Import Expenses",
+  "exImportConfirm": "{count, plural, =1{Found 1 expense in \"{file}\". Import them all?} other{Found {count} expenses in \"{file}\". Import them all?}}",
+  "@exImportConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "file": {
+        "type": "String"
+      }
+    }
+  },
+  "exImported": "{count, plural, =1{Imported 1 expense.} other{Imported {count} expenses.}}",
+  "@exImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exImportFailedServer": "Import failed: server error {code}",
+  "@exImportFailedServer": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "exDeleteTitle": "Delete Expense",
+  "exAdd": "Add Expense",
+  "exEdit": "Edit Expense",
+  "exDescription": "Description",
+  "exAmountRs": "Amount (Rs)",
+  "exCategory": "Category",
+  "exDate": "Date: {date}",
+  "@exDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "exRepeats": "Repeats monthly",
+  "exRepeatsHint": "Rent, electricity, wages, etc.",
+  "exReceiptTap": "Receipt photo, tap to change",
+  "exReceiptOptional": "Receipt photo (optional)",
+  "exEnterValid": "Enter a description and a valid amount.",
+  "exOffline": "Offline — expense saved on this device, will sync automatically when back online",
+  "exSave": "Save Expense",
+  "exRecurringDue": "{count, plural, =1{1 recurring expense due this month} other{{count} recurring expenses due this month}}",
+  "@exRecurringDue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exAddShort": "Add",
+  "exTotal": "Total Expenses",
+  "exCategoryChip": "Category: {name}",
+  "@exCategoryChip": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "exNoneLogged": "No expenses logged yet",
+  "exNoneInCategory": "No {name} expenses yet",
+  "@exNoneInCategory": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "exViewReceipt": "View receipt",
+  "exEditRow": "Edit expense",
+  "exDeleteRow": "Delete expense",
+  "gstServerReturned": "Server returned {first}/{second}",
+  "@gstServerReturned": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "gstCouldNotLoad": "Could not load GST data: {error}",
+  "@gstCouldNotLoad": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "gstFailedDownload": "Failed to download ({code})",
+  "@gstFailedDownload": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "gstSaved": "Saved {filename}",
+  "@gstSaved": {
+    "placeholders": {
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "gstSavedDownloads": "Saved to Downloads/{filename}",
+  "@gstSavedDownloads": {
+    "placeholders": {
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "gstCouldNotDownload": "Could not download: {error}",
+  "@gstCouldNotDownload": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "gstTitle": "Sales Tax Report",
+  "gstOutwardDetail": "Outward Sales — Invoice Detail",
+  "gstNoBills": "No bills for this month.",
+  "gstHsn": "HSN Summary",
+  "gstInvoiceWise": "Invoice-wise details",
+  "gstMonthly": "Monthly Summary",
+  "gstOutwardTaxable": "Outward taxable supplies",
+  "gstItc": "Input Tax Credit (from purchases)",
+  "gstSave": "Save",
+  "rcValidAmount": "Enter a valid amount.",
+  "rcExpected": "Expected Cash (today's cash sales)",
+  "rcAlsoCollected": "Also collected today (not counted in the drawer)",
+  "rcCounted": "Cash Counted in Drawer (Rs)",
+  "rcCompare": "Compare",
+  "rcMatches": "Matches exactly!",
+  "rcExtra": "{amount} extra in drawer",
+  "@rcExtra": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "rcMissing": "{amount} missing from drawer",
+  "@rcMissing": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "pbiTitle": "Profit by Item",
+  "pbiNoSales": "No sales yet",
+  "pbiByCategory": "By Category",
+  "pbiItemsByProfit": "Items by Profit",
+  "svTitle": "Stock Valuation",
+  "svNone": "No stock on hand",
+  "svItemsByValue": "Items by Value",
+  "svSummary": "{items} items · {units} units on the shelf",
+  "@svSummary": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      },
+      "units": {
+        "type": "String"
+      }
+    }
+  },
+  "svTied": "{amount} tied up in stock",
+  "@svTied": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "svEstimated": "est. from sale price",
+  "bkRestoreTitle": "Restore Backup?",
+  "bkRestoreBody": "This will replace ALL current data with the backup file \"{filename}\". Continue?",
+  "@bkRestoreBody": {
+    "placeholders": {
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "bkRestore": "Restore",
+  "bkRestoreDoneTitle": "Restore Complete",
+  "bkRestoreDoneBody": "Your data has been restored.",
+  "bkOk": "OK",
+  "bkRestoreFailed": "Restore failed: {detail}",
+  "@bkRestoreFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "bkCouldNotRestore": "Could not restore: {error}",
+  "@bkCouldNotRestore": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "bkSaveToDownloads": "Save to Downloads",
+  "bkIntroAdmin": "All your data lives in one database file. Download a copy regularly, and restore it if anything ever goes wrong.",
+  "bkIntroStaff": "Full database backup and restore are admin-only. Ask an admin, or export what you need as CSV below.",
+  "bkBackupDb": "Backup Database",
+  "bkBackupDbSub": "Download the whole database as one file and share it (WhatsApp, Drive, email).",
+  "bkDownloadPhone": "Download Backup to Phone",
+  "bkShareBackup": "Share Backup",
+  "bkAutoTitle": "Automatic Backups",
+  "bkAutoBody": "{count, plural, =1{1 daily backup stored on the server, most recent from {time}. Runs on its own — nothing to do here.} other{{count} daily backups stored on the server, most recent from {time}. Runs on its own — nothing to do here.}}",
+  "@bkAutoBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "bkRestoreSub": "Pick a saved backup file to replace the current data.",
+  "bkRestoreFromFile": "Restore from Backup File",
+  "bkExportCsv": "Export to CSV",
+  "bkExportSub": "Open these in Excel or share them.",
+  "bkRangeAll": "Bills/Expenses: all time",
+  "bkRangeSome": "Bills/Expenses: {start} to {end}",
+  "@bkRangeSome": {
+    "placeholders": {
+      "end": {
+        "type": "String"
+      },
+      "start": {
+        "type": "String"
+      }
+    }
+  },
+  "bkSetRange": "Set Range",
+  "bkClearRange": "Clear range",
+  "ntNever": "Never triggered",
+  "ntJustNow": "Just now",
+  "ntMinutesAgo": "{count}m ago",
+  "@ntMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ntHoursAgo": "{count}h ago",
+  "@ntHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ntDaysAgo": "{count}d ago",
+  "@ntDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ntTitle": "Smart Notifications",
+  "ntTapHint": "Tap \"Check Now\" to trigger a notification and see live results.",
+  "ntLowStockSub": "Notify when items fall below their reorder level.",
+  "ntCheckNow": "Check Now",
+  "ntOverdue": "Overdue Payment Reminders",
+  "ntOverdueSub": "Notify about unpaid bills from previous days.",
+  "ntDaily": "Daily Business Summary",
+  "ntDailySub": "Yesterday's sales, collections, and profit at a glance.",
+  "ntSendSummary": "Send Summary",
+  "ntRunning": "Running…",
+  "ntLowStockItems": "Low Stock Items",
+  "ntSales": "Sales",
+  "ntCollected": "Collected",
+  "ntProfit": "Profit",
+  "auChecking": "Checking for updates…",
+  "auLatest": "You have the latest version.",
+  "auAvailable": "Update available",
+  "auNewer": "A newer version of Book-Keep (build {code}) is ready.",
+  "@auNewer": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "auLater": "Later",
+  "auUpdate": "Update",
+  "auDownloading": "Downloading update",
+  "auSaved": "Saved {name} to your Downloads folder.",
+  "@auSaved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "auAllowInstall": "Allow Book-Keep to install apps, then tap Update again.",
+  "auFailed": "Could not update — check your connection and try again.",
+  "lgSearch": "Search languages",
+  "lgNoMatch": "No languages match \"{query}\"",
+  "@lgNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "alVoided": "Voided a bill",
+  "alDeletedBill": "Deleted a bill",
+  "alReturned": "Returned a bill",
+  "alDeletedCustomer": "Deleted a customer",
+  "alDeletedSupplier": "Deleted a supplier",
+  "alCreatedAccount": "Created an account",
+  "alUpdatedAccount": "Updated an account",
+  "alDeletedAccount": "Deleted an account",
+  "alTitle": "Activity Log",
+  "alNone": "No activity recorded yet",
+  "blkEnterOne": "Enter at least one item",
+  "blkAdded": "{count, plural, =1{1 item added successfully} other{{count} items added successfully}}",
+  "@blkAdded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "blkTitle": "Bulk Add Items",
+  "blkFormat": "One item per line, format: Name, Price, Unit, Category",
+  "blkOptional": "Unit and category are optional (defaults: piece, none)",
+  "blkAddAll": "Add All Items",
+  "prSend": "Send Payment Reminder",
+  "prTone": "Select Tone:",
+  "prPolite": "Polite",
+  "prStandard": "Standard",
+  "prUrgent": "Urgent",
+  "prPreviewQr": "Preview JazzCash Payment QR",
+  "prShareText": "Share Text",
+  "dsRemaining": "Remaining",
+  "dsIncludesDiscount": "includes {amount} discount",
+  "@dsIncludesDiscount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "dsItems": "Items",
+  "dsDiscount": "Discount",
+  "lkWrongPin": "Wrong PIN",
+  "lkEnterPin": "Enter PIN",
+  "lkChecking": "Checking fingerprint...",
+  "bcTitle": "Scan Barcode",
+  "bcTorchNa": "Torch is not available on this device",
+  "bcTorch": "Torch",
+  "bcPoint": "Point the camera at a barcode",
+  "qrNoNumber": "No JazzCash number configured. Set it in Settings to show a payment QR code.",
+  "qrPay": "Pay via JazzCash",
+  "qrInvalid": "Invalid QR Data",
+  "qrAmount": "Amount: {amount}",
+  "@qrAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "qrNumber": "JazzCash: {number}",
+  "@qrNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "qrCopy": "Copy JazzCash number",
+  "qrCopied": "JazzCash number copied to clipboard",
+  "qrHint": "Scan or copy this number in your JazzCash app to pay.",
+  "clOwed": "{amount} owed",
+  "@clOwed": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "lnEnterEmailFirst": "Enter a valid email above first.",
+  "lnResetSent": "Password-reset email sent — check your inbox.",
+  "lnNoAccount": "No account found for that email.",
+  "lnWrongPassword": "Incorrect password.",
+  "lnInvalidEmail": "That doesn't look like a valid email address.",
+  "lnDisabled": "This account has been disabled.",
+  "lnTooMany": "Too many attempts — try again in a minute.",
+  "lnNoInternet": "No internet connection.",
+  "lnWeakPassword": "Password must be at least 6 characters.",
+  "lnCouldNotSignIn": "Could not sign in. Please try again.",
+  "lnWrongPasswordHint": "Incorrect password. Try again or tap \"Forgot password?\".",
+  "lnWrongEmail": "Incorrect email — no account uses that address.",
+  "lnWrongEmailOrPassword": "Incorrect email or password.",
+  "lnWrongUsername": "Incorrect username — no account uses that name.",
+  "lnWelcome": "Welcome back",
+  "lnSignInTo": "Sign in to {app}",
+  "@lnSignInTo": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "lnEmailOrUsername": "Email or Username",
+  "lnRemember": "Remember me",
+  "lnForgot": "Forgot password?",
+  "lnSignIn": "Sign In",
+  "lnGoogle": "Continue with Google",
+  "lnNew": "New here?",
+  "lnCreate": "Create account",
+  "suCreated": "Account created for {email}. A verification email was sent (optional).",
+  "@suCreated": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "suSetup": "Set up {app}",
+  "@suSetup": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "suName": "Name",
+  "suEmail": "Email",
+  "suPhoneDigits": "Enter a valid {digits}-digit number",
+  "@suPhoneDigits": {
+    "placeholders": {
+      "digits": {
+        "type": "int"
+      }
+    }
+  },
+  "suCreateBtn": "Create Account",
+  "suHaveAccount": "Already have an account?",
+  "suAlreadyExists": "An account already exists for that email.",
+  "suInvalidEmail": "Invalid email address.",
+  "agShow": "Show password",
+  "agHide": "Hide password",
+  "adAccounts": "Accounts",
+  "adAccountsSub": "{count, plural, =1{1 registered account} other{{count} registered accounts}}",
+  "@adAccountsSub": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "adAdd": "Add",
+  "adNoAccounts": "No accounts found.",
+  "adAccountability": "Accountability",
+  "adAccountabilitySub": "Who voided, deleted, or returned something, and account changes.",
+  "adActivitySub": "Voided bills, deletions, account changes",
+  "adServer": "Server",
+  "adServerSub": "Where this app talks to. Rarely needs changing after setup.",
+  "adServerHint": "Emulator uses 10.0.2.2; a real phone needs the laptop’s IP on the same Wi-Fi. Changing it affects every account.",
+  "adApiBase": "API Base URL",
+  "adSaveServer": "Save Server Address",
+  "adEmailSetSub": "Set up — staff can email invoices/statements to customers.",
+  "adNotSetUp": "Not set up yet.",
+  "adEmailSetBody": "Email is set up. Lets staff email an invoice or statement straight to a customer.",
+  "adEmailHelp": "A Gmail address works with an app password (smtp.gmail.com, port 587), or use your email provider's SMTP details.",
+  "adSmtpHost": "SMTP Host",
+  "adSmtpPort": "SMTP Port",
+  "adEmailAddress": "Email Address",
+  "adPwKeep": "Password (leave blank to keep current)",
+  "adPwApp": "Password (app password, not your login password)",
+  "adFromName": "From Name (optional)",
+  "adFromHint": "My Hardware Shop",
+  "adSaving": "Saving...",
+  "adSaveEmail": "Save Email Settings",
+  "adAddAccount": "Add account",
+  "adNameOpt": "Name (optional)",
+  "adAtLeast6": "At least 6 characters",
+  "adGrantAdmin": "Grant admin",
+  "adCanManage": "Can void/delete/return",
+  "adCanManageHint": "Void or delete a bill, return a bill, or delete a customer/supplier. An admin always has this.",
+  "adCreate": "Create",
+  "adAccountCreated": "Account created.",
+  "adCreateFailed": "Create failed: {error}",
+  "@adCreateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adEditAccount": "Edit account",
+  "adAdminSwitch": "Admin",
+  "adAdminHint": "Can open the admin panel",
+  "adDisabled": "Disabled",
+  "adDisabledHint": "Blocked from signing in",
+  "adAccountUpdated": "Account updated.",
+  "adUpdateFailed": "Update failed: {error}",
+  "@adUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adDeleteBody": "{label} will be permanently removed and can no longer sign in.",
+  "@adDeleteBody": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "adAccountDeleted": "Account deleted.",
+  "adDeleteFailed": "Delete failed: {error}",
+  "@adDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adBadgeAdmin": "ADMIN",
+  "adBadgeDisabled": "DISABLED",
+  "adOff": "Admin panel is off",
+  "adCheckAgain": "Check again",
+  "adAccessRequired": "Admin access required",
+  "adAccessBody": "Only shop admins can manage accounts. Ask the shop owner to grant you admin access.",
+  "adCouldNotLoad": "Could not load the admin panel.",
+  "adBadPort": "Enter a valid SMTP port number.",
+  "adEmailSaved": "Email settings saved.",
+  "adEmailSaveFailed": "Could not save email settings: {error}",
+  "@adEmailSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adServerEmpty": "Server address cannot be empty.",
+  "adServerSaved": "Server address saved. Screens will use it on next load.",
+  "lnOr": "or",
+  "scNotABill": "That doesn't look like a bill. Try again with a clear photo of the bill.",
+  "scNotAnInvoice": "That doesn't look like an invoice. Try again with a clear photo of the supplier's invoice.",
+  "jqOpenFull": "Full size",
+  "jqCopy": "Copy number",
+  "jqSheetTitle": "JazzCash QR",
+  "jqSheetHint": "Customers scan this in their JazzCash app to pay you.",
+  "jqCheck": "Check the number",
+  "askVoice": "Voice",
+  "askVoiceFallbackNote": "Reading this with your phone's voice.",
+  "askPace": "Pace",
+  "askTone": "Tone",
+  "askPaceSlower": "Slower",
+  "askPaceNormal": "Normal",
+  "askPaceFaster": "Faster",
+  "askToneCalm": "Calm",
+  "askToneWarm": "Warm",
+  "askToneCheerful": "Cheerful",
+  "qPaymentUpdate": "Payment update: {amount}",
+  "@qPaymentUpdate": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "qCustomer": "Customer: {name}",
+  "@qCustomer": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "qSupplier": "Supplier: {name}",
+  "@qSupplier": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "qItem": "Item: {name}",
+  "@qItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "qExpense": "Expense: {name}",
+  "@qExpense": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "qPurchase": "Purchase: {amount}",
+  "@qPurchase": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "qPaymentCollected": "Payment collected: {amount} from {name}",
+  "@qPaymentCollected": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "gstAmount": "GST {amount}",
+  "@gstAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "gstItemLine": "Taxable {taxable}  ·  GST {tax}  ·  Total {total}",
+  "@gstItemLine": {
+    "placeholders": {
+      "tax": {
+        "type": "String"
+      },
+      "taxable": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "rpBreakdown": "Revenue: {revenue}  •  COGS: {cogs}  •  Expenses: {expenses}",
+  "@rpBreakdown": {
+    "placeholders": {
+      "cogs": {
+        "type": "String"
+      },
+      "expenses": {
+        "type": "String"
+      },
+      "revenue": {
+        "type": "String"
+      }
+    }
+  },
+  "msgReminderGentle": "Hello {customer}, gentle greeting from {shop}! Your total balance due is {amount}. Thank you!",
+  "@msgReminderGentle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "msgReminderStandard": "Hello {customer}, payment reminder from {shop} for pending balance of {amount}. Kindly pay at your earliest convenience.",
+  "@msgReminderStandard": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "msgReminderUrgent": "URGENT NOTICE: Dear {customer}, your outstanding payment of {amount} at {shop} is pending. Please settle immediately.",
+  "@msgReminderUrgent": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      }
+    }
+  },
+  "msgPayViaJazzCash": "Pay via JazzCash: {number}",
+  "@msgPayViaJazzCash": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "msgInvoiceShare": "Invoice from {shop}\nTotal: {total}\nItems: {items}\nStatus: {status}",
+  "@msgInvoiceShare": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "msgReorder": "Hello {supplier}, this is {shop}. We would like to place an order for:\n{lines}\n\nPlease confirm availability and price. Thank you.",
+  "@msgReorder": {
+    "placeholders": {
+      "lines": {
+        "type": "String"
+      },
+      "shop": {
+        "type": "String"
+      },
+      "supplier": {
+        "type": "String"
+      }
+    }
+  },
+  "ppUpdated": "Last updated: {date}",
+  "@ppUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ppWhoH": "Who this is",
+  "ppWho": "{owner}, operating Book-keep.\nContact: {email}",
+  "@ppWho": {
+    "placeholders": {
+      "owner": {
+        "type": "String"
+      },
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "ppCollectH": "What we collect",
+  "ppCollectAccount": "Account: email, phone number, and username, via Firebase Authentication.",
+  "ppCollectShop": "Shop profile: shop name, address, phone number, JazzCash number, and shop logo image — entered by the shop owner in Settings.",
+  "ppCollectRecords": "Business records you create: customer and supplier names and phone numbers, bills, purchases, item catalog entries (including item photos and barcodes), and expenses (including receipt photos). This is the app’s core data — it’s how bookkeeping works.",
+  "ppCollectDevice": "Device and diagnostic data: a push-notification token (for low-stock, overdue-payment, and daily-summary alerts) and crash reports (device info and stack traces) via Firebase Crashlytics, sent automatically when the app crashes.",
+  "ppCollectAi": "AI features: {askShop}, the AI Morning Briefing, and the AI bill/purchase scanner send a snapshot of the relevant business data (report figures, or a photo of a bill) to Google’s Gemini API to generate an answer, summary, or extracted line items. This data is processed by Google to generate the response; it is not used by us or Google to train models outside of Google’s standard API terms.",
+  "@ppCollectAi": {
+    "placeholders": {
+      "askShop": {
+        "type": "String"
+      }
+    }
+  },
+  "ppDontH": "What we don’t do",
+  "ppDontLocation": "We don’t track your location.",
+  "ppDontAds": "We don’t use ad networks or behavioral analytics/session-replay tools.",
+  "ppDontSell": "We don’t sell your data or your customers’ data to anyone.",
+  "ppWhereH": "Where data lives",
+  "ppWhereDb": "Database: Neon (Postgres), a third-party cloud database provider.",
+  "ppWhereFirebase": "Authentication, push notifications, crash reports, photo storage: Firebase (Google).",
+  "ppWhereAi": "AI processing: Google Gemini API.",
+  "ppWhereEmail": "Invoice emails: sent through the SMTP account the shop’s own admin configures in the {adminPanel} — we don’t operate a mailing list, and these emails are one-to-one invoices/statements to your own existing customers, not bulk marketing.",
+  "@ppWhereEmail": {
+    "placeholders": {
+      "adminPanel": {
+        "type": "String"
+      }
+    }
+  },
+  "ppYoursH": "Your data, your customers’ data",
+  "ppYours": "Everything you enter — customers, suppliers, bills, items — belongs to your shop. Other shops using Book-keep cannot see it. Staff accounts you create for your shop can see what you grant them access to, nothing more.",
+  "ppControlsH": "Your controls",
+  "ppControlExport": "Export or back up your data: {path}",
+  "@ppControlExport": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "ppControlDelete": "Delete your account: {path}. This removes your sign-in credential only — it does not erase your shop’s business records (bills, customers, items, etc.), the same way removing a staff member doesn’t delete records they created.",
+  "@ppControlDelete": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "ppControlNotif": "Notifications: can be turned off per type in {path}.",
+  "@ppControlNotif": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "ppChildrenH": "Children",
+  "ppChildren": "Book-keep is a business tool for shop owners and staff. It is not directed at, or knowingly used by, children.",
+  "ppChangesH": "Changes to this policy",
+  "ppChanges": "If what we collect or where it goes changes, we’ll update this page and change the date at the top.",
+  "ppContactH": "Contact",
+  "ppContact": "Questions about this policy or your data: {email}",
+  "@ppContact": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "waHello": "Hello!",
+  "waHelloNamed": "Hi {name},",
+  "@waHelloNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "gstTaxable": "Taxable",
+  "gstTax": "Tax",
+  "gstTaxableValue": "Taxable value",
+  "gstTotalTax": "Total tax",
+  "gstTotalItc": "Total input tax credit",
+  "gstExempt": "Exempt supplies",
+  "gstNetPayable": "Net tax payable",
+  "unknownName": "Unknown",
+  "unitPiece": "piece",
+  "unitKg": "kg",
+  "unitMeter": "meter",
+  "unitBox": "box",
+  "unitDozen": "dozen",
+  "unitLiter": "liter",
+  "unitBag": "bag",
+  "deleteSupplierMessage": "Delete {name} and all their purchases? This cannot be undone.",
+  "@deleteSupplierMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}
